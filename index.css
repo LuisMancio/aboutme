@@ -6,6 +6,7 @@
   margin: 0px auto; /* Agrega margen superior e inferior y centra horizontalmente */
   padding: 5px; /* Espaciado interno para separar el contenido del borde */
   background-color: #ffffff; /* Fondo opcional para mejor visibilidad */
+  text-align: center; /* Centra el contenido */
 
 }
 
