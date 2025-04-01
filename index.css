@@ -10,6 +10,20 @@
 
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image-container iframe {
+  border: none; /* Elimina el borde negro */
+  width: 80%; /* Ajusta el ancho según necesites */
+  height: auto;
+}
+
+
 .u-section-1 .u-layout-wrap-1 {
   margin-top: 0;
   margin-bottom: 0;
