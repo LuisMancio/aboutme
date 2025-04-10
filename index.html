@@ -85,6 +85,45 @@
         </div>
       </div>
    <!-- Sección con imagen a la izquierda y texto a la derecha -->
+
+
+<!-- Bank segmentation -->
+<div class="map">
+  <h3>Customer Segmentation on Bank Credit Data (K-means & Affinity Propagation)</h3>
+	
+    <p>The objective of this project was to segment customers of a German bank into groups with similar behaviors using clustering techniques. This helps the bank understand its customers better and make more informed decisions about financial products they could offer them.</p>
+
+    
+  <iframe src="maps/ds_banks.gif" width="100%" height="400px"></iframe>
+<h4>Main Steps:</h4>	
+	
+
+   
+    <ol>
+        <li><strong>Data Exploration:</strong> 
+            <p>The relationships between Credit Amount, Duration, and Age were examined. A moderate correlation between credit amount and loan duration was found, indicating that customers requesting larger loans tend to request them for longer periods.</p>
+        </li>
+        <li><strong>Feature Selection & Preprocessing:</strong>
+            <p>Three key features were selected: Age, Credit Amount, and Duration.</p>
+        </li>
+        <li><strong>K-means Clustering:</strong>
+            <p>The K-means algorithm was used to divide customers into 3 groups. This number of clusters was chosen after analyzing how metrics are varied.</p>
+        </li>
+       
+    </ol>
+
+    <p>This type of analysis is crucial because it helps financial institutions better understand their customers and how they interact with their products. Instead of treating all customers the same way, clustering allows for the creation of specific segments that can be worked with more effectively. This not only improves customer relationships but also enhances profitability and operational efficiency for the bank.</p>
+ 
+</div>
+
+	    <!-- Caifornia -->
+<div class="map">
+  <h3>California coast housing prices prediction</h3>
+  <p>This project uses a dataset of house prices based on various attributes such as location, number of rooms, and proximity to the beach in the state of California. Using machine learning techniques, we can build a predictive model for house prices based on their location.</p>
+  <img src="maps/scatter_plot.png" alt="California coast housing cost prediction" width="100%" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+
+	    
 <div class="map">
   <h3>Google Vision</h3>
   <p>In this code, we use Google's artificial intelligence to automate image labeling by identifying elements present in the image and generating a list of keywords for each one.
@@ -128,35 +167,6 @@
   <iframe src="maps/mejorador_imagenes.png" width="100%" height="400px"></iframe>
 </div>
 
-<!-- Otro Mapa -->
-<div class="map">
-  <h3>Customer Segmentation on Bank Credit Data (K-means & Affinity Propagation)</h3>
-	
-    <p>The objective of this project was to segment customers of a German bank into groups with similar behaviors using clustering techniques. This helps the bank understand its customers better and make more informed decisions about financial products they could offer them.</p>
-
-    
-  <iframe src="maps/ds_banks.gif" width="100%" height="400px"></iframe>
-<h4>Main Steps:</h4>	
-	
-
-   
-    <ol>
-        <li><strong>Data Exploration:</strong> 
-            <p>The relationships between Credit Amount, Duration, and Age were examined. A moderate correlation between credit amount and loan duration was found, indicating that customers requesting larger loans tend to request them for longer periods.</p>
-        </li>
-        <li><strong>Feature Selection & Preprocessing:</strong>
-            <p>Three key features were selected: Age, Credit Amount, and Duration. The data was log-transformed to correct for skewness and standardized to prepare it for clustering analysis.</p>
-        </li>
-        <li><strong>K-means Clustering:</strong>
-            <p>The K-means algorithm was used to divide customers into 3 groups. This number of clusters was chosen after analyzing how metrics (inertia and silhouette score) varied for different numbers of clusters.</p>
-        </li>
-       
-    </ol>
-
-    <p>This type of analysis is crucial because it helps financial institutions better understand their customers and how they interact with their products. Instead of treating all customers the same way, clustering allows for the creation of specific segments that can be worked with more effectively. This not only improves customer relationships but also enhances profitability and operational efficiency for the bank.</p>
- 
-</div>
-
 
 	    
 
@@ -172,12 +182,7 @@
 
 
 	    
-<!-- Otra imagen -->
-<div class="map">
-  <h3>California coast housing prices prediction</h3>
-  <p>This project uses a dataset of house prices based on various attributes such as location, number of rooms, and proximity to the beach in the state of California. Using machine learning techniques, we can build a predictive model for house prices based on their location.</p>
-  <img src="maps/scatter_plot.png" alt="California coast housing cost prediction" width="100%" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-</div>
+
 
    
     </section>
